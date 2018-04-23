@@ -1,0 +1,52 @@
+baseurl: /cub2p.org
+permalink: pretty
+title:
+  page: 'cub2p'
+  header: 'cub2p'
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://cub2p.github.io/cub2p.org/'
+  media: 'img'
+  metadata:
+    "":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "status"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author Name"
+      - name: "splash"
+        field:
+          element: "text"
+          label: "Splash image"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          alterable: true
+          label: "Tags"
+          placeholder: "Choose Tags"
+      - name: "gps"
+        field:
+          label: "GPS Coordinates"
+          element: "text"
+          value: ""
+          placeholder: "[longitude],[latitude]"
+
+    status/:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "status"
+
+    reflection/:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "reflection"

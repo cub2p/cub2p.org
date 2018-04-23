@@ -1,0 +1,65 @@
+---
+published: true
+layout: default
+title: 'Blog'
+section: blog
+---
+
+<div class='listing col6 margin3 pad4h'>
+  {% for post in site.posts limit:1000 %}
+   {% if post.categories contains "status" or post.categories contains "journal" %}
+  {% capture side1 %} {% cycle 'left', 'right' %}{% endcapture %}
+  {% capture side2 %} {% cycle 'right', 'left' %}{% endcapture %}
+
+  <div class='col12 snippet'>
+    <div class='col4 splash {{side1}}'>
+      <a href="{{site.baseurl}}{{post.url}}">
+        <img src='{{site.baseurl}}{{post.splash}}'>
+      </a>
+    </div>
+
+    <div class='col8 text {{side2}}'>
+      <div class="titles">
+        <span class="title">
+          <a href="{{site.baseurl}}{{post.url}}">
+            {{post.title}}
+          </a>
+        </span>
+
+        <div class="subtext">
+          <span class="date">{{post.date | date_to_string}}</span>
+          
+          <span class="flag">
+            <img src="{{site.baseurl}}/{{site.prose.media}}/{{post.country}}_flag.gif">
+          </span>
+          <span class="category">
+            {% if post.category contains "status" %}
+            Status Update
+            {% else %}
+            Journal Entry
+            {% endif %}
+          </span>
+          <span class="author">
+            by {{post.author}}
+          </span>
+        </div>
+      </div>
+
+      <div class="post_info">
+        <span class="subtitle">{{post.subtitle}} ...
+          
+          <a href="{{site.baseurl}}{{post.url}}">
+            read more
+          </a>
+        </span>
+        
+        <!-- image for {{country}} -->
+        <span class="excerpt">
+          <!--{{ item.excerpt | remove: '<p>' | remove: '</p>' }}-->
+        </span>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
