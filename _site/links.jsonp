@@ -1,0 +1,23 @@
+callback([
+
+  {
+    "text": "About",
+    "href": "/cub2p.org/about/"
+  } ,
+
+  {
+    "text": "Bridges",
+    "href": "/cub2p.org/bridges/"
+  } ,
+
+  {
+    "text": "Gratitude",
+    "href": "/cub2p.org/gratitude/"
+  } ,
+
+  {
+    "text": "Bags Packed: Ready to Go!",
+    "href": "/cub2p.org/status/2018/04/23/bags-packed-ready-to-go/"
+  } 
+
+])

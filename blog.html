@@ -12,13 +12,13 @@ section: blog
   {% capture side2 %} {% cycle 'right', 'left' %}{% endcapture %}
 
   <div class='col12 snippet'>
-    <div class='col4 splash {{side1}}'>
+    <div class='col6 splash {{side1}}'>
       <a href="{{site.baseurl}}{{post.url}}">
         <img src='{{site.baseurl}}{{post.splash}}'>
       </a>
     </div>
 
-    <div class='col8 text {{side2}}'>
+    <div class='col6 text {{side2}}'>
       <div class="titles">
         <span class="title">
           <a href="{{site.baseurl}}{{post.url}}">
@@ -30,7 +30,7 @@ section: blog
           <span class="date">{{post.date | date_to_string}}</span>
           
           <span class="flag">
-            <img src="{{site.baseurl}}/{{site.prose.media}}/{{post.country}}_flag.gif">
+            <img src="{{site.baseurl}}/{{site.prose.media}}/flags/{{post.country}}.gif">
           </span>
           <span class="category">
             {% if post.category contains "status" %}
