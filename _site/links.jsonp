@@ -18,6 +18,11 @@ callback([
   {
     "text": "Bags Packed: Ready to Go!",
     "href": "/cub2p.org/status/2018/04/23/bags-packed-ready-to-go/"
+  } ,
+
+  {
+    "text": "Update #1 from eSwatini",
+    "href": "/cub2p.org/status/2018/06/19/update-1-from-eswatini/"
   } 
 
 ])
