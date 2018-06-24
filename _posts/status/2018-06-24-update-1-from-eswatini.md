@@ -1,6 +1,6 @@
 ---
 title: "Update #1 from eSwatini"
-subtitle: "After many months of hard work and preparation, our Bolivia and Swaziland teams are all packed & ready to go for our build trips this summer!"
+subtitle: "Heaps of manual labour, good times, and progress for our CUB2P Swaziland team!"
 author: Sbura
 country: SWZ
 published: true
