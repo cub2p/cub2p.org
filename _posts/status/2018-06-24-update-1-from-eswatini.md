@@ -119,6 +119,9 @@ Here are a couple more pics from our time here on the site!
 ![]({{site.baseurl}}/img/posts/tractor-trailer-flip.jpg)
 *...like our tractor trailer flipping over the other day. Eish!! Fortunately it was a quick fix*
 
+![]({{site.baseurl}}/img/posts/happy-team.jpg)
+*Happy team members Siboniso and Mancane*
+
 ![]({{site.baseurl}}/img/posts/safety-circle.jpg)
 *Our end of the day Safety Circle while we were constructing our right side first tier*
 
@@ -130,5 +133,6 @@ Here are a couple more pics from our time here on the site!
 
 ![]({{site.baseurl}}/img/posts/right-abutment-2tiers.jpg)
 *Current status of the footbridges right side abutment!*
+
 
 Thank you all so much for reading!! We are all having a blast here and do stay tuned for some more updates.
