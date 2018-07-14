@@ -22,17 +22,17 @@ callback([
 
   {
     "text": "Update #1 from eSwatini",
-    "href": "/cub2p.org/status/2018/06/19/update-1-from-eswatini/"
-  } ,
-
-  {
-    "text": "Update #1 from eSwatini",
     "href": "/cub2p.org/status/2018/06/24/update-1-from-eswatini/"
   } ,
 
   {
     "text": "A Bolivian Summer Adventure (Round 2)",
     "href": "/cub2p.org/status/2018/07/05/a-bolivian-adventure-round-2/"
+  } ,
+
+  {
+    "text": "Update #2 from eSwatini",
+    "href": "/cub2p.org/status/2018/07/12/update-2-from-eswatini/"
   } 
 
 ])
